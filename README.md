@@ -7,7 +7,7 @@ XDC3PYTHON SDK with support for smart contracts, XDC20 & XRC721.
 
 **pip install XDC3PYTHON**
 
-### This SDK supports following Read & Write operations:-###
+### This SDK supports following Read & Write operations:-
 
 XRC20 Read methods                       | XRC20 Write methods
 -------------                            | -------------
