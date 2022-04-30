@@ -17,6 +17,8 @@ totalSupply()                            | transferFrom(sender, recipient, amoun
 balanceOf(account)                       | increaseAllowance(spender, addedValue)
 allowance(owner, spender)                | decreaseAllowance(spender, subtractedValue)
 
+
+
 XRC721 Read methods       | XRC721 Write methods
 -------------             | -------------
 name()                    | setApprovalForAll(spenderAddress, booleanValue)
