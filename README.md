@@ -69,5 +69,5 @@ This example returns symbol of the specified address.
 
 **HTTP transport**
 
-[Author](https://github.com/XDCFoundation/XDC_Python_SDK_V1)
+[XDCFoundation](https://github.com/XDCFoundation/XDC_Python_SDK_V1)
 
