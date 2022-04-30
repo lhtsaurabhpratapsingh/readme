@@ -32,3 +32,42 @@ tokenOfOwnerByIndex(ownerAddress,index)
 supportInterface(interfaceId)
 getApproved(tokenId) 
 isApprovedForAll(ownerAddress,spenderAddr)
+
+### Environment Variable
+
+**Create a .env file in the root directory of the Python project to put the wallet and endpoint information in like so: NETWORK_URL = "https://rpc.apothem.network"**
+
+### Example for XRC20.
+
+` from XDC3PYTHON import XRC20
+
+
+if __name__=="__main__":
+
+    token = input('Enter token address: ')
+    a = XRC20.name(token)
+    print(a)
+`
+
+This example returns name of the specified address.
+
+### Example for XRC721.
+
+` from XDC3PYTHON import XRC721
+
+
+if __name__=="__main__":
+
+    token = input('Enter token address: ')
+    a = XRC721.symbol(token)
+    print(a)
+`
+
+This example returns symbol of the specified address.
+
+# Transports
+
+**HTTP transport**
+
+[Author](https://github.com/XDCFoundation/XDC_Python_SDK_V1)
+
