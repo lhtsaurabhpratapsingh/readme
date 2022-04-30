@@ -39,7 +39,7 @@ isApprovedForAll(ownerAddress,spenderAddr)
 
 ### Example for XRC20.
 
-` from XDC3PYTHON import XRC20
+``` from XDC3PYTHON import XRC20
 
 
 if __name__=="__main__":
@@ -47,13 +47,13 @@ if __name__=="__main__":
     token = input('Enter token address: ')
     a = XRC20.name(token)
     print(a)
-`
+```
 
 This example returns name of the specified address.
 
 ### Example for XRC721.
 
-` from XDC3PYTHON import XRC721
+``` from XDC3PYTHON import XRC721
 
 
 if __name__=="__main__":
@@ -61,7 +61,7 @@ if __name__=="__main__":
     token = input('Enter token address: ')
     a = XRC721.symbol(token)
     print(a)
-`
+```
 
 This example returns symbol of the specified address.
 
