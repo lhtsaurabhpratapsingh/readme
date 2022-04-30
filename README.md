@@ -39,8 +39,8 @@ isApprovedForAll(ownerAddress,spenderAddr)
 
 ### Example for XRC20.
 
-``` from XDC3PYTHON import XRC20
-
+``` 
+from XDC3PYTHON import XRC20
 
 if __name__=="__main__":
 
@@ -53,8 +53,8 @@ This example returns name of the specified address.
 
 ### Example for XRC721.
 
-``` from XDC3PYTHON import XRC721
-
+``` 
+from XDC3PYTHON import XRC721
 
 if __name__=="__main__":
 
