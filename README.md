@@ -35,7 +35,7 @@ isApprovedForAll(ownerAddress,spenderAddr)
 
 ### Environment Variable
 
-**Create a .env file in the root directory of the Python project to put the wallet and endpoint information in like so: NETWORK_URL = "https://rpc.apothem.network"**
+` Create a .env file in the root directory of the Python project to put the wallet and endpoint information in like so: NETWORK_URL = "https://rpc.apothem.network" `
 
 ### Example for XRC20.
 
