@@ -1,4 +1,4 @@
-# XDC3Python
+# XDC3PYTHON
 
 XDC3PYTHON SDK with support for smart contracts, XDC20 & XRC721. 
 
