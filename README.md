@@ -23,20 +23,24 @@ XDC3PYTHON SDK with support for smart contracts, XDC20 & XRC721.
     * Write methods.
         * setApprovalForAll(spenderAddress, booleanValue), approve(sepnderAddress , tokenId), transferFrom(recipient, tokenId), safeTransferFrom(spender, tokenId).
 
-### Environment Variable
-
-` Create a .env file in the root directory of the Python project to put the wallet and endpoint information in like so: NETWORK_URL = "https://rpc.apothem.network" `
 
 ### Example for XRC20.
 
 
-`from XDC3PYTHON import XRC20
+```
+from XDC3PYTHON.xrc721 import XRC721
 
 if __name__=="__main__":
 
-    token = input('Enter token address: ')
-    a = XRC20.name(token)
-    print(a)`
+    NETWORK_URL = "Your endpoint Url"
+
+    obj = XRC721(NETWORK_URL)
+
+    tokenAddr = input('Enter Token Address: ')
+  
+    tokenSymbol = obj.name(tokenAddr)
+    print(tokenSymbol) 
+```
 
 This example returns name of the specified address.
 
