@@ -9,11 +9,19 @@ XDC3PYTHON SDK with support for smart contracts, XDC20 & XRC721.
 
 ### This SDK supports following Read & Write operations:-
 
-* xrc20 methods
+* xrc20 methods.
     * Read methods.
-        * name(), balanceOf(account), totalSupply(), symbol(), decimals(), allowance(pwner, spender)
+        * name(), balanceOf(account), totalSupply(), symbol(), decimals(), allowance(pwner, spender).
+
     * Write methods.
-        * transferXDC(owner,receiver), approve(spender,amount), transferToken(receiver,amount), increaseAllowance(spender, addedValue), decreaseAllowance(spender, subtractedValue), transferFrom(sender, receiver, amount)
+        * transferXDC(owner,receiver), approve(spender,amount), transferToken(receiver,amount), increaseAllowance(spender, addedValue), decreaseAllowance(spender, subtractedValue), transferFrom(sender, receiver, amount).
+
+* xrc721 methods.
+    * Read methods.
+        * name(), symbol(), totalsupply(), balanceOf(ownerAddr), ownerOf(tokenId), tokenURI(tokenId), tokenByIndex(index), tokenOfOwnerByIndex(ownerAddress,index), supportInterface(interfaceId), getApproved(tokenId), isApprovedForAll(ownerAddress,spenderAddress).
+
+    * Write methods.
+        * setApprovalForAll(spenderAddress, booleanValue), approve(sepnderAddress , tokenId), transferFrom(recipient, tokenId), safeTransferFrom(spender, tokenId).
 
 ### Environment Variable
 
